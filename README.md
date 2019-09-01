@@ -2,6 +2,9 @@
 
 Create a client-side quiz app based on the provided requirements, data and views.
 
+## Demo
+https://adp-quiz.firebaseapp.com
+
 ## Frameworks and libraries used
 
 VueJS and Vuetify
@@ -10,26 +13,3 @@ VueJS and Vuetify
 ```
 npm install
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
