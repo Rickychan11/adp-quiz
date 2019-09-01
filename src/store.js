@@ -17,8 +17,11 @@ export default new Vuex.Store({
   actions: {
     selectedQuiz ({ commit }, payload) {
       for (let i = 0; i < payload.questions.length; i++) {
-        payload.questions[i].overlay = false
-        //console.log(payload.questions[i])
+        for (let j = 0; j < payload.questions[i].answers.length; j++) {
+          payload.questions[i].answers[j].overlay = false
+          console.log(payload.questions[i].answers[j])
+        }
+        // console.log(payload.questions[i])
       }
       commit('setSelectedQuiz', payload)
     }

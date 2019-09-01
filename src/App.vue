@@ -5,15 +5,5 @@
 </template>
 
 <script>
-export default {
-  data () {
-    return {
-      quizzes: this.$store.getters.loadedQuiz.quizzes
-    }
-  },
-  methods: {
-
-  }
-}
 
 </script>

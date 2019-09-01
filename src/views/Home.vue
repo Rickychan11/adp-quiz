@@ -1,11 +1,11 @@
 <template>
   <v-container>
-  <div class="display-4 mt-10"
+  <div class="display-3 mt-10"
   justify="center"
   align="center">
-      Start
+      Welcome <br />
+      <span class="headline">Please select a quiz.</span>
   </div>
-
   <v-row
     justify="center"
     align="center"
@@ -20,7 +20,6 @@
   </v-row>
   </v-container>
 </template>
-
 <script>
 export default {
   data () {

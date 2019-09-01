@@ -1,4 +1,10 @@
-# adp-quiz
+# App Developer Entrance Project
+
+Create a client-side quiz app based on the provided requirements, data and views.
+
+## Frameworks and libraries used
+
+VueJS and Vuetify
 
 ## Project setup
 ```
